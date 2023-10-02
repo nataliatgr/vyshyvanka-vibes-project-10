@@ -4,19 +4,6 @@
   align-items: flex-start;
   gap: 72px;
 
-  max-width: 767px;
-
-  margin: 0 auto;
-  padding: 72px 0;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../../img/about-us/elements.png);
-  background-repeat: no-repeat;
-  background-position: bottom-right;
-  background-size: cover;
 }
 
 .container-about {
