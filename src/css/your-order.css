@@ -11,7 +11,7 @@
     min-height: 550px;
     margin-bottom: 80px;
 
-    background-image: url(../../images/test/order-banner-mob.jpg);
+    background-image: url(/src/img/your-order/order-banner-mob.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -21,7 +21,7 @@
   screen and (min-resolution: 2dppx) and (min-width: 320px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 320px) {
   .order-banner {
-    background-image: url(../../images/test/order-banner-mob@x2.jpg);
+    background-image: url(/src/img/your-order/order-banner-mob@x2.jpg);
   }
 }
 
@@ -127,7 +127,7 @@
         padding-top: 50px;
         padding-bottom: 50px;
 
-        background-image: url(../../images/test/ornament.png);
+        background-image: url(/src/img/your-order/ornament.png);
         background-repeat: no-repeat;
         background-position: bottom -116px left 0px;
     }
@@ -136,7 +136,7 @@
     screen and (min-resolution: 2dppx) and (min-width: 768px),
     screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
         .order-section {
-            background-image: url(../../images/test/ornament@x2.png);
+            background-image: url(/src/img/your-order/ornament@x2.png);
             background-repeat: no-repeat;
             background-position: bottom -116px left 0px;
             background-size: 545px 484px;
@@ -148,7 +148,7 @@
         min-height: 776px;
         margin-bottom: 100px;
 
-        background-image: url(../../images/test/order-banner-tab.jpg);
+        background-image: url(/src/img/your-order/order-banner-tab.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -158,7 +158,7 @@
     screen and (min-resolution: 2dppx) and (min-width: 768px),
     screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
         .order-banner {
-            background-image: url(../../images/test/order-banner-tab@x2.jpg);
+            background-image: url(/src/img/your-order/order-banner-tab@x2.jpg);
         }
     }
 
@@ -229,14 +229,14 @@
         padding-top: 75px;
         padding-bottom: 75px;
 
-        background-image: url(../../images/test/ornament.png);
+        background-image: url(/src/img/your-order/ornament.png);
     }
 
     @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
     screen and (min-resolution: 2dppx) and (min-width: 1280px),
     screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
         .order-section {
-            background-image: url(../../images/test/ornament@x2.png);
+            background-image: url(/src/img/your-order/ornament@x2.png);
         }
     }      
 
@@ -245,7 +245,7 @@
         min-height: 776px;
         margin-bottom: 150px;
 
-        background-image: url(../../images/test/order-banner-desk.jpg);
+        background-image: url(/src/img/your-order/order-banner-desk.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -255,7 +255,7 @@
     screen and (min-resolution: 2dppx) and (min-width: 1280px),
     screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
         .order-banner {
-            background-image: url(../../images/test/order-banner-desk@x2.jpg);
+            background-image: url(/src/img/your-order/order-banner-desk@x2.jpg);
         }
     }
 
