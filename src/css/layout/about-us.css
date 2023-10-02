@@ -12,17 +12,20 @@ height: 545px;
 align-content: center;
 padding-left: 100px;
 padding-right: 100px;
-
+display: flex;
 }
 .aboutus {
     width: 436px;
 }
 .about {
     margin-left: auto;
+    font-family: Manrope;
+    letter-spacing: 0.3px;
     color: #FCF9F9;
     size: 44px;
     font-weight: 500;
     line-height: 64px;
+    padding-bottom: 16px;
 }
 
 .text-about-us {
@@ -30,14 +33,21 @@ padding-right: 100px;
     text-align: left;
     font-size: 16px;
   font-style: normal;
+  font-family: Manrope;
   font-weight: 400;
   line-height: 21.86px;
   color: #FCF9F966;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.4px;
   gap: 20px;
 }
 
 .about-us-img {
     width: 594px;
     height: 545px;
+    border-radius: 4px;
+    padding-right: 16px;
+    padding-left: 100px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-right: auto;
 }
