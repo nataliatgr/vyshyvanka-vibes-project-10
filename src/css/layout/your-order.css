@@ -54,10 +54,10 @@
     width: 100%;
 }
 
-.order-form-iput {
+.order-form-input {
     width: 100%;
     padding: 14px 16px;
-    margin-bottom: 24px;
+    margin-bottom: 26px;
 
     background-color: transparent;
 
@@ -69,6 +69,10 @@
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.10);
 }
+
+.order-form-input:focus {
+    border-color: rgba(252, 249, 249, 0.6);
+  }
 
 .order-form-comment-wraper {
     width: 100%;
