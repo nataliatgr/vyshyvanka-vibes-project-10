@@ -1,0 +1,76 @@
+<section class="order-section">
+    <div class="order-banner">
+    </div>
+    <div class="order-container container">
+        <div class="order-form-wraper">
+                <div class="order-thumb">
+                    <img
+                    class="order-img"
+                    srcset="
+                    ./images/test/order-photo-desk.jpg 524w,
+                    ./images/test/order-photo-desk@x2.jpg 1048w,
+                    ./images/test/order-photo-tablet.jpg 638w,
+                    ./images/test/order-photo-tablet.jpg 1276w,
+                    "
+                    sizes="
+                    (min-width: 1280px) 524px, 
+                    (min-width: 768px) 638px, 
+                    "
+                    src="./images/test/order-photo-desk.jpg" 
+                    alt="Фото вышиванки" 
+                    width="524">
+                </div>
+            <div class="form-wraper">
+                <h2 class="order-header">
+                    <span class="order-header-accent">Your order</span> is our priority: Personalized approach and quality of service
+                </h2>
+                <form class="order-form">
+                    <div class="order-form-container">
+                        <div class="order-input-container">
+                            <input
+                                class="order-form-iput"
+                                type="text"
+                                id="user-name"
+                                name="user-name"
+                                pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+                                required
+                                placeholder="Enter your full name"
+                            />
+                        </div>
+                    </div>
+                    <div class="order-form-container">
+                        <div class="order-input-container">
+                            <input
+                                class="order-form-iput"
+                                type="text"
+                                id="user-email"
+                                name="user-email"
+                                pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ@.]+"
+                                required
+                                placeholder="Enter your email"
+                            />
+                        </div>
+                    </div>
+                    <div class="order-form-comment-wraper">
+                        <textarea
+                            class="order-form-comment"
+                            name="user-comment"
+                            id="user-comment"
+                            placeholder="Comments"
+                        ></textarea>
+                    </div>
+                    <button class="order-form-button" type="submit">Send
+                        <svg
+                        class="order-button-icon"
+                        width="24"
+                        height="24"
+                        aria-label="subscribe icon"
+                        >
+                        <use href="./images/icons.svg#icon-arrow"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
