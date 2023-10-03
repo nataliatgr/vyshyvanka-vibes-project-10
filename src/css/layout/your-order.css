@@ -11,7 +11,7 @@
     min-height: 550px;
     margin-bottom: 80px;
 
-    background-image: url(/src/img/your-order/order-banner-mob.jpg);
+    background-image: url(/img/your-order/order-banner-mob.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -21,7 +21,7 @@
   screen and (min-resolution: 2dppx) and (min-width: 320px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 320px) {
   .order-banner {
-    background-image: url(/src/img/your-order/order-banner-mob@x2.jpg);
+    background-image: url(/img/your-order/order-banner-mob@x2.jpg);
   }
 }
 
@@ -34,7 +34,7 @@
 
     color: #FCF9F9;
 
-    font-family: Manrope;
+    font-family: Manrope, sans-serif;
     font-size: 32px;
     font-weight: 500;
     line-height: 1.37; 
@@ -60,6 +60,7 @@
     margin-bottom: 26px;
 
     background-color: transparent;
+    outline: transparent;
 
     color: rgba(252, 249, 249, 0.50);
     font-size: 14px;
@@ -70,9 +71,10 @@
     border: 1px solid rgba(252, 249, 249, 0.10);
 }
 
+.order-form-input:hover,
 .order-form-input:focus {
     border-color: rgba(252, 249, 249, 0.6);
-  }
+}
 
 .order-form-comment-wraper {
     width: 100%;
@@ -89,6 +91,7 @@
     align-self: stretch;
 
     background-color: transparent;
+    outline: transparent;
 
     color: rgba(252, 249, 249, 0.50);
     font-size: 14px;
@@ -99,10 +102,15 @@
     border: 1px solid rgba(252, 249, 249, 0.10);
 }
 
+.order-form-comment:hover,
+.order-form-comment:focus {
+    border-color: rgba(252, 249, 249, 0.6);
+}
+
 .order-form-button {
     display: flex;
     margin: 0 auto;
-    max-width: 145px;
+    width: 145px;
     height: 49px;
     padding: 14px 36px;
     justify-content: center;
@@ -110,9 +118,10 @@
     gap: 10px;
 
     background-color: transparent;
+    outline: transparent;
 
     color: #FCF9F9;
-    font-family: Manrope;
+    font-family: Manrope, sans-serif;
     font-size: 14px;
     font-weight: 600;
     line-height: normal;
@@ -123,36 +132,38 @@
     border: 1px solid rgba(252, 249, 249, 0.10);
 }
 
+.order-form-button:hover,
+.order-form-button:focus {
+  border-color: #ECD979;
+}
+
 /* =============== TABLET ===============*/
 
 
 @media screen and (min-width: 768px) {
+
+    .order-container {
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .order-section {
         padding-top: 50px;
         padding-bottom: 50px;
 
-        background-image: url(/src/img/your-order/ornament.png);
+        background-image: url(/img/your-order/ornament.png);
         background-repeat: no-repeat;
-        background-position: bottom -116px left 0px;
+        background-position: bottom 0px left 0px;
     }
-
-    @media screen and (min-resolution: 192dpi) and (min-width: 768px),
-    screen and (min-resolution: 2dppx) and (min-width: 768px),
-    screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
-        .order-section {
-            background-image: url(/src/img/your-order/ornament@x2.png);
-            background-repeat: no-repeat;
-            background-position: bottom -116px left 0px;
-            background-size: 545px 484px;
-        }
-    }      
 
     .order-banner {
         width: 100%;
         min-height: 776px;
         margin-bottom: 100px;
 
-        background-image: url(/src/img/your-order/order-banner-tab.jpg);
+        background-image: url(/img/your-order/order-banner-tab.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -162,7 +173,7 @@
     screen and (min-resolution: 2dppx) and (min-width: 768px),
     screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
         .order-banner {
-            background-image: url(/src/img/your-order/order-banner-tab@x2.jpg);
+            background-image: url(/img/your-order/order-banner-tab@x2.jpg);
         }
     }
 
@@ -174,18 +185,21 @@
     .order-thumb {
         display: block;
         box-sizing: border-box;
-        border-radius: 4px;
-        object-fit: cover;
         order: 3;
+    }
+
+    .order-img {
+        width: 638px;
+        height: 521px;
+
+        border-radius: 4px;
+        transform: translate(65px, 0px);
     }
 
     .order-header {
         margin-bottom: 40px;
         max-width: 542px;
-    
-        color: #FCF9F9;
-    
-        font-family: Manrope;
+
         font-size: 44px;
         font-weight: 500;
         line-height: 1.32; 
@@ -219,6 +233,8 @@
     }
     
     .order-form-button {
+        max-width: 168px;
+        height: 50px;
         margin: 0 0;
         font-size: 16px;
         margin-bottom: 100px;
@@ -229,27 +245,27 @@
 /* =============== DESKTOP ===============*/
 
 @media screen and (min-width: 1280px) {
+
+    .order-container {
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .order-section {
         padding-top: 75px;
         padding-bottom: 75px;
 
-        background-image: url(/src/img/your-order/ornament.png);
-    }
-
-    @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
-    screen and (min-resolution: 2dppx) and (min-width: 1280px),
-    screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
-        .order-section {
-            background-image: url(/src/img/your-order/ornament@x2.png);
-        }
-    }      
+        background-position: bottom 75px left 0px;
+    }    
 
     .order-banner {
         width: 100%;
         min-height: 776px;
         margin-bottom: 150px;
 
-        background-image: url(/src/img/your-order/order-banner-desk.jpg);
+        background-image: url(/img/your-order/order-banner-desk.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -259,24 +275,59 @@
     screen and (min-resolution: 2dppx) and (min-width: 1280px),
     screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
         .order-banner {
-            background-image: url(/src/img/your-order/order-banner-desk@x2.jpg);
+            background-image: url(/img/your-order/order-banner-desk@x2.jpg);
         }
     }
 
     .order-form-wraper {
-        position: relative;
-        display: flex;
         flex-direction: row;
     }
 
     .order-thumb {
-        position: absolute;
-        left: -37px;
-        width: 524px;
         order: 0;
     }
 
+    .order-img {
+        width: 524px;
+        height: 521px;
+        max-width: none;
+        
+        transform: translate(0px, 0px);
+    }
+
     .form-wraper {
-        padding-left: 538px;
+        margin-left: 50px;
+    }
+
+    .order-form-button {
+        margin-bottom: 0;
+    }
+}
+
+/* =============== DESKTOP(1440) ===============*/
+
+@media screen and (min-width: 1440px) {
+
+    .order-banner {
+        width: 100%;
+        min-height: 776px;
+        margin-bottom: 150px;
+
+        background-image: url(/img/your-order/order-banner-desk-1440.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+    screen and (min-resolution: 2dppx) and (min-width: 1440px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+        .order-banner {
+            background-image: url(/img/your-order/order-banner-desk-1440@x2.jpg);
+        }
+    }
+
+    .order-header {
+        max-width: 666px;
     }
 }
