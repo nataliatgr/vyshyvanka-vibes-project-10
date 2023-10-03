@@ -110,8 +110,8 @@
 .order-form-button {
     display: flex;
     margin: 0 auto;
-    max-width: 145px;
-    height: 45px;
+    width: 145px;
+    height: 49px;
     padding: 14px 36px;
     justify-content: center;
     align-items: center;
