@@ -306,7 +306,27 @@
 
 /* =============== DESKTOP(1440) ===============*/
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1440px) {
+
+    .order-banner {
+        width: 100%;
+        min-height: 776px;
+        margin-bottom: 150px;
+
+        background-image: url(/img/your-order/order-banner-desk-1440.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    @media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+    screen and (min-resolution: 2dppx) and (min-width: 1440px),
+    screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+        .order-banner {
+            background-image: url(/img/your-order/order-banner-desk-1440@x2.jpg);
+        }
+    }
+
     .order-header {
         max-width: 666px;
     }
