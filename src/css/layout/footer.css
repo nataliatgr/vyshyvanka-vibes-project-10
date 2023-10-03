@@ -1,3 +1,4 @@
+
 .footer-block {
     display: flex;
     flex-direction: column;
@@ -68,7 +69,7 @@ text-transform: uppercase;
     font-size: 44px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.23; /* 122.727% */
+    line-height: 1.23; 
     letter-spacing: -0.03em;
     width: 100%;
     margin: 0;
@@ -94,7 +95,7 @@ text-transform: uppercase;
     display: flex;
     width: 100%;
     height: 190px;
-    background-image: url(/images-footer/bg-footer-mobile-min.png);
+    background-image: url(/src/img/images-footer/bg-footer-mobile-min.png);
     background-repeat: repeat-x;
     background-position: center;
     background-size:auto;
@@ -191,7 +192,7 @@ text-transform: uppercase;
     width: 174px;
     padding: 0px;
     min-height: 401px;
-    background-image: url(/images-footer/bg-footer-tablet-min.png);
+    background-image: url(/src/img/images-footer/bg-footer-tablet-min.png);
     background-repeat: repeat-y;
     background-position: 34% 0;
     background-size: cover;
@@ -224,18 +225,18 @@ text-transform: uppercase;
         width: 754px;
         height: 148px;
         font-size: 64px;
-        line-height: 1.16; /* 115.625% */
+        line-height: 1.16; 
 }
 
 .footer-span {
     font-size: 64px;
-    line-height: 1.16; /* 118.519% */
+    line-height: 1.16;
 }
 
 .footer-end { 
     width: 336px;
     min-height: 363px;
-    background-image: url(/images-footer/bg-footer-desktop-min.png);
+    background-image: url(/src/img/images-footer/bg-footer-desktop-min.png);
     background-repeat: repeat-y;
     background-position: 34% 0;
     background-size: cover;
@@ -248,7 +249,7 @@ text-transform: uppercase;
 screen and (min-resolution: 2dppx) and (max-width: 767px),
 screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
     .main-page {
-        background-image: url(/images-footer/bg-footer-mobile@2x-min.png);
+        background-image: url(/src/img/images-footer/bg-footer-mobile@2x-min.png);
     }
     
 }
@@ -257,7 +258,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
 screen and (min-resolution: 2dppx) and (min-width: 768px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     .main-page {
-        background-image: url(/images-footer/bg-footer-tablet@2x-min.png);
+        background-image: url(/src/img/images-footer/bg-footer-tablet@2x-min.png);
     }
     
 }
@@ -266,7 +267,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
 screen and (min-resolution: 2dppx) and (min-width: 1280px),
 screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
     .main-page {
-        background-image: url(/images-footer/bg-footer-desktop@2x-min.png);
+        background-image: url(/src/img/images-footer/bg-footer-desktop@2x-min.png);
     }
     
 }
