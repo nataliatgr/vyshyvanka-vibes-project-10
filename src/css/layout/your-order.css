@@ -34,7 +34,7 @@
 
     color: #FCF9F9;
 
-    font-family: Manrope;
+    font-family: Manrope, sans-serif;
     font-size: 32px;
     font-weight: 500;
     line-height: 1.37; 
@@ -121,7 +121,7 @@
     outline: transparent;
 
     color: #FCF9F9;
-    font-family: Manrope;
+    font-family: Manrope, sans-serif;
     font-size: 14px;
     font-weight: 600;
     line-height: normal;
@@ -199,10 +199,7 @@
     .order-header {
         margin-bottom: 40px;
         max-width: 542px;
-    
-        color: #FCF9F9;
-    
-        font-family: Manrope;
+
         font-size: 44px;
         font-weight: 500;
         line-height: 1.32; 
