@@ -1,0 +1,77 @@
+.about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 72px; 
+}
+
+
+.container {
+    width: 1440px;
+}
+
+.container-about {
+    background-color: #1C2225;
+height: 545px;
+align-content: center;
+padding-left: 100px;
+padding-right: 100px;
+display: flex;
+background-image: url(../../img/about-us/elements.png);
+background-position: right bottom;
+background-repeat: no-repeat;
+}
+.aboutus {
+    width: 436px;
+    height: 454px;
+    gap: 40px;
+}
+.about {
+    margin-left: auto;
+    font-family: Manrope;
+    letter-spacing: 0.3px;
+    color: #FCF9F9;
+    size: 44px;
+    font-weight: 500;
+    line-height: 64px;
+    padding-bottom: 16px;
+}
+
+.text-about-us  {
+    margin-left: auto;
+    text-align: left;
+    font-size: 16px;
+  font-style: normal;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 21.86px;
+  color: #FCF9F966;
+  letter-spacing: 0.4px;
+  gap: 20px;
+  padding-bottom: 16px;
+}
+
+.text-aboutus {
+    margin-left: auto;
+    text-align: left;
+    font-size: 16px;
+  font-style: normal;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 21.86px;
+  color: #FCF9F966;
+  letter-spacing: 0.4px;
+  gap: 20px;
+  padding-top: 16px;
+}
+
+.about-us-img {
+    width: 594px;
+    height: 545px;
+    border-radius: 4px;
+    padding-right: 16px;
+    padding-left: 100px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-right: auto;
+}
