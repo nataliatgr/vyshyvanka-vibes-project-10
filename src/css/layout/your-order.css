@@ -306,3 +306,11 @@
         margin-bottom: 0;
     }
 }
+
+/* =============== DESKTOP(1440) ===============*/
+
+@media screen and (min-width: 1280px) {
+    .order-header {
+        max-width: 666px;
+    }
+}
