@@ -1,8 +1,93 @@
 /* =============== MOBILE ===============*/
 
+.about-us {
+    width: 100%;
+    min-height: 957px;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 50px; 
+  }
+  .container-about {
+    background-color: #1C2225; 
+    align-content: center;
+    background-image: url(../../img/about-us/elements-mobile.png);
+background-position: right bottom;
+background-repeat: no-repeat;
+
+@media screen and (min-resolution: 192dpi) and (min-width: 320px),
+  screen and (min-resolution: 2dppx) and (min-width: 320px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 320px) 
+
+}
+
+  .about {
+    margin-left: 0;
+    font-family: Manrope;
+    letter-spacing: 0.3px;
+    color: #FCF9F9;
+    size: 32px;
+    font-weight: 500;
+    line-height: 44px;
+    padding-bottom: 16px;
+    
+}
+
+  .aboutus {
+    width: 335px;
+    height: 408px;
+    gap: 40px;
+    
+}
+
+.about-text {
+    width: 335px;
+height: 324;
+gap: 20px;
+font-family: Manrope;
+font-weight: 400;
+font-size: 14px;
+line-height: 19.12px;
+padding-left: 0;
+}
 
 /* =============== TABLET ===============*/
-
+@media screen and (min-width: 768px) {
+    .about-text {
+        width: 704px;
+        height: 218px;
+        gap: 20px;
+    text-align: left;
+    }
+    
+    .container-part {
+        width: 704px;
+        height: 545px;
+        border-radius: 4px;
+    }
+    
+    .about-us {
+        background-color: #1C2225;
+    }
+    
+    .about-us-img {
+        width: 704px;
+        height: 545px;
+        border-radius: 4px;
+    }
+    
+    .container-about {      
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+        background-image: url(../../img/about-us/elements-tablet.png);
+    background-position: 100px 100px;
+    background-repeat: no-repeat;
+    }
+    
+    @media screen and (min-resolution: 192dpi) and (min-width: 768px),
+        screen and (min-resolution: 2dppx) and (min-width: 768px),
+        screen and (min-device-pixel-ratio: 2) and (min-width: 768px) 
+    }
 
 /* =============== DESKTOP ===============*/
 @media screen and (min-width: 1280px) {
