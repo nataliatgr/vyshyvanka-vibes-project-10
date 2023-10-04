@@ -150,7 +150,7 @@
 
     .hero-star-wrapper {
         position: absolute;
-        top: 80px;
+        top: 152px;
         right: 32px; 
         max-width: 115px;
         text-align: center;
@@ -172,7 +172,7 @@
 
     .vyshyvanka-hero {
         position: absolute;
-        top: 903px;
+        top: 975px;
         right: 32px; 
         clip-path: ellipse(50% 100% at 50% 100%);
     }
@@ -286,7 +286,7 @@
 
     .hero-star-wrapper {
         position: absolute;
-        top: 114px;
+        top: 186px;
         right: 100px;
     }
 
@@ -303,7 +303,7 @@
 
     .vyshyvanka-hero {
         position: absolute;
-        top: 547px;
+        top: 613.96px;
         right: 100px;
         clip-path: ellipse(50% 100% at 50% 100%);
     }
