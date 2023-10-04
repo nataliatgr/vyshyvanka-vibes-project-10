@@ -206,7 +206,7 @@
     }
 
     .order-header {
-        margin-bottom: 40px;
+        margin: 0 0 40px;
         max-width: 542px;
 
         font-size: 44px;
