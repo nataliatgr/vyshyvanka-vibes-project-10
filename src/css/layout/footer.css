@@ -151,7 +151,7 @@
     .footer-nav {
     display: inline-flex;
     flex-wrap: nowrap;
-    row-gap: 25px;
+    column-gap: 25px;
     height: 18px;
     
 
