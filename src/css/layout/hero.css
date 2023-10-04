@@ -103,7 +103,7 @@
         letter-spacing: -0.03em;
         color: #FCF9F9;
         max-width: 549px;
-        text-align: left;
+        margin: inherit;
     }
 
     .hero-text-span {
@@ -298,7 +298,7 @@
         letter-spacing: -0.03em;
         color: #FCF9F9;
         max-width: 518px;
-        text-align: left;
+        margin: inherit;
     }
 
     .vyshyvanka-hero {
