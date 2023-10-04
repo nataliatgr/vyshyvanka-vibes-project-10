@@ -1,0 +1,50 @@
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Manrope";
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+}
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: #ffffff;
+  color: #434455;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  background: #1c2225;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
