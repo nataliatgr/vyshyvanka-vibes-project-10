@@ -89,14 +89,3 @@
     }
 }
 
-@media screen and (min-width: 1440px) {
-    .our-colection {
-        background-image: url(../../img/our-collection/background/collection-bg-desktop-1440.png);
-        background-repeat: no-repeat;
-        background-position: 0 288px;
-    }
-
-    .list-colections {
-        justify-content: center;
-    }
-}
