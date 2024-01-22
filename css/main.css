@@ -1,0 +1,404 @@
+/*=========================== sektion our-collection ===========================================*/
+/*--------------------------------  320-375  ------------------------*/
+
+.section {
+  padding: 40px 0;
+}
+
+.our-collection {
+  width: 100%;
+}
+
+.our-collection-h {
+  color: var(--white, #fcf9f9);
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px; /* 137.5% */
+  letter-spacing: -0.96px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.our-collection-list {
+  width: 100%;
+  height: 100%;
+}
+
+.our-collection-img {
+  height: 100%;
+  width: 100%;
+}
+.card-tablet {
+  width: 100%;
+  height: 100%;
+}
+
+.our-collection-item {
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.our-collection-text {
+  border-top: none;
+  width: 100%; /*335px;*/
+  height: 100%; /*58px;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: start;
+  gap: 8px;
+}
+
+.our-collection-text-h-one {
+  display: -webkit-box;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  color: var(--white, #fcf9f9);
+  text-overflow: ellipsis;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px; /* 100% */
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+
+.our-collection-text-h {
+  color: var(--white, #fcf9f9);
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px; /* 100% */
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+
+.our-collection-text-p {
+  color: rgba(252, 249, 249, 0.4);
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 100% */
+  letter-spacing: 0.7px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.card-image-our-collection-one {
+  width: 100%;
+  height: 100%;
+}
+.card-image-our-collection {
+  width: 100%;
+  height: 100%;
+}
+.card-image-our-collection-layout {
+  width: 100%;
+  height: 100%;
+}
+
+/*-------------------------------- MOBILE -------------------------*/
+@media screen and (min-width: 375px) {
+  .our-collection {
+    max-width: 375px;
+  }
+  .our-collection-container {
+    max-width: 335px;
+  }
+  .our-collection-list {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .one {
+    width: 335px;
+    height: 400px;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .our-collection-img-one {
+    display: flex;
+    width: 335px;
+    height: 400px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .our-collection-img {
+    display: flex;
+    width: 335px;
+    height: 430px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .elements {
+    max-width: 375px;
+    height: 7683px;
+    background-image: url(../images/elements/elements-2-mobile.png),
+      url(../images/elements/elements-1-mobile.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position-y: 2417px, 1693px;
+    background-position-x: left, right;
+  }
+  .our-collection-item {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    height: 484px;
+  }
+  .one {
+    height: 454px;
+    width: 335px;
+  }
+
+  .our-collection-text {
+    display: flex;
+    width: 335px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .card-image-our-collection-one {
+    width: 335px;
+    height: 400px;
+    border-radius: 4px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  }
+  .card-image-our-collection {
+    width: 335px;
+    height: 430px;
+    border-radius: 4px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  }
+  .card-image-our-collection-layout {
+    width: 375px;
+    height: 550px;
+    width: 375px;
+    flex-shrink: 0;
+    background: url(<path-to-image>),
+      lightgray -268.21px -22.209px / 232.555% 196.497% no-repeat;
+  }
+}
+
+/*-------------------------------- tablet -------------------------*/
+@media screen and (min-width: 768px) {
+  .section {
+    padding: 50px 0;
+  }
+  .our-collection {
+    max-width: 768px;
+  }
+  .our-collection-container {
+    max-width: 704px;
+  }
+
+  .elements {
+    max-width: 768px;
+    height: 7102px;
+    background-image: url(../images/elements/elements-2-tablet.png),
+      url(../images/elements/elements-1-tablet.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position-y: 2403px, 1648px;
+    background-position-x: left, right;
+    flex-shrink: 0;
+  }
+
+  .our-collection-h {
+    font-size: 44px;
+    line-height: 64px; /* 145.455% */
+    letter-spacing: -1.32px;
+  }
+
+  .our-collection-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .our-collection-item {
+    width: 342px;
+  }
+
+  .our-collection-text-h-one {
+    width: 342px;
+    font-size: 18px;
+    line-height: 18px; /* 100% */
+    letter-spacing: 0.9px;
+  }
+
+  .our-collection-text-h {
+    font-size: 18px;
+    line-height: 18px; /* 100% */
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+  }
+
+  .our-collection-text-p {
+    font-size: 18px;
+    line-height: 18px; /* 100% */
+    letter-spacing: 0.9px;
+  }
+
+  .our-collection-text {
+    width: 342px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .card-image-our-collection,
+  .card-image-our-collection-one {
+    width: 342px;
+  }
+
+  .card-image-our-collection-layout {
+    width: 768px;
+    height: 776px;
+    flex-shrink: 0;
+    background: url(<path-to-image>),
+      lightgray -291.146px -27.637px / 167.632% 205.306% no-repeat;
+  }
+}
+/*----------------- desctop 1280 ---------------*/
+@media screen and (min-width: 1280px) {
+  .section {
+    padding: 50px 0;
+  }
+  .our-collection {
+    max-width: 1280px;
+  }
+  .our-collection-container {
+    max-width: 1182px;
+  }
+
+  .elements {
+    max-width: 1280px;
+    height: 5482px;
+    background-image: url(../images/elements/elements-2-1280.png),
+      url(../images/elements/elements-1-1280.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position-y: 1783px, 1008px;
+    background-position-x: left, right;
+    flex-shrink: 0;
+  }
+
+  .our-collection-list {
+    display: flex;
+    width: 1082px;
+    flex-direction: row;
+    align-items: center;
+    row-gap: 40px;
+  }
+
+  .our-collection-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    width: 347px;
+    height: 492px;
+  }
+  .our-collection-h {
+    font-size: 44px;
+    line-height: 64px; /* 145.455% */
+    letter-spacing: -1.32px;
+    width: 272px;
+  }
+
+  .card-image-our-collection,
+  .card-image-our-collection-one {
+    width: 347px;
+    height: 430px;
+  }
+
+  .our-collection-text-h-one {
+    width: 345px;
+  }
+  .card-image-our-collection-layout {
+    display: flex;
+    width: 1282px;
+    height: 776px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: url(<path-to-image>),
+      lightgray -80px -32px / 112.324% 247.423% no-repeat;
+  }
+}
+/*----------------- desctop 1440 ---------------*/
+@media screen and (min-width: 1440px) {
+  .section {
+    padding: 75px 0;
+  }
+  .our-collection {
+    max-width: 1440px;
+  }
+  .our-collection-container {
+    max-width: 1240px;
+  }
+
+  .elements {
+    max-width: 1440px;
+    height: 5459px;
+    background-image: url(../images/elements/elements-2-1440.png),
+      url(../images/elements/elements-1-1440.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position-y: 1791px, 1006px;
+    background-position-x: left, right;
+    flex-shrink: 0;
+  }
+
+  .our-collection-list {
+    display: flex;
+    width: 1240px;
+    flex-direction: row;
+    align-items: center;
+    row-gap: 40px;
+  }
+
+  .our-collection-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+    width: 400px;
+    height: 492px;
+  }
+
+  .card-image-our-collection,
+  .card-image-our-collection-one {
+    width: 400px;
+    height: 430px;
+  }
+
+  .our-collection-text-h-one {
+    width: 376px;
+  }
+  .card-image-our-collection-layout {
+    width: 1440px;
+    height: 776px;
+    flex-shrink: 0;
+    background: url(<path-to-image>),
+      lightgray 0px -32px / 100% 247.423% no-repeat;
+  }
+}
